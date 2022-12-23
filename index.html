@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="UTF-8"/>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="assets/img/logo.png" rel="icon">
+        <link rel="stylesheet" href="assets/librerias/bootstrap.min.css"> <!--* Libraries Bootstrap -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet" />
+		<link rel="stylesheet" href="assets/css/style.css" />
+		<title> Show And Hide Password </title>
+	</head>
+
+	<body>
+			
+	<!-- beggin container -->
+    <div class="container">
+		<!-- beggin form -->
+		<form class="text-center border border-light p-5" action="index.html">
+			<img src="assets/img/user.png" alt="" class="h4 mb-4">
+			<input type="email" id="user" class="form-control mb-4" placeholder="Enter User">
+			<!-- beggin input-group -->
+			<div class="input-group mb-3">
+				<div class="input-group-prepend">
+					<div class="input-group-text">
+						<span><i id="toggler"class="far fa-eye"></i></span> 
+				  	</div>
+				</div>
+				<input type="password" id="EnterPassword" class="form-control" placeholder="Password">
+			</div>
+			<!-- end input-group -->
+    		<button class="btn btn-block" type="submit"> LOGIN </button>
+		</form>
+		<!-- end form -->
+	</div>
+	<!-- end container -->
+		
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+		<script src="assets/librerias/jquery-3.6.0.min.js"></script> <!--! Libraries jquery -->
+        <script src="assets/librerias/popper.min.js"></script> <!--! Libraries Icons -->
+        <script src="assets/librerias/bootstrap.min.js"></script> <!--! Libraries Bootstrap -->
+        <script src="https://kit.fontawesome.com/a81368914c.js"></script> <!--! Libraries Font Of fontawesome -->
+        <script defer src="assets/js/main.js"></script>
+
+	</body>
+</html>

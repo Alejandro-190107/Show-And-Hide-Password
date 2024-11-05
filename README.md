@@ -12,6 +12,6 @@
 
 ## <p align="left" style="color: #80cbc4;"> Screenshot Project 💻 </p>
 
-🔶 [Project Website](https://alejandro-lopez.futuretecware.com/Show-And-Hide-Password/index.html)
+🔶 [Project Website](https://alejandro-190107.github.io/Show-And-Hide-Password/)
 
 ![Screenshot](assets/img/Screenshot.png)
